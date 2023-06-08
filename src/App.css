@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
+.app
+{
+  background-image: url('./aseets/app.jpg');
+  background-position-x: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.4s ease;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.warm
+{
+  background-image: url('./aseets/warm.png');
+  transition: background-image 0.4s ease;
 
-.App-header {
-  background-color: #282c34;
+}
+.winter
+{
+  background-image: url('./aseets/winter.png');
+  transition: background-image 0.4s ease;
+
+}
+.rain
+{
+  background-image: url('./aseets/rain.jpg');
+  transition: background-image 0.4s ease;
+
+}
+.haze
+{
+  background-image: url('./aseets/haze.jpg');
+  transition: background-image 0.4s ease;
+
+}
+.cloud
+{
+  background-image: url('./aseets/clouds.jpg');
+  transition: background-image 0.4s ease;
+
+}
+.searchInput
+{
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 100%;
+  border-radius: 0 0 13px 13px;
+  box-shadow: 0 4px rgba(95, 95, 95, 0.931);
+  background: rgba(236, 236, 236, 0.585);
+  outline: none;
+  border: none;
+}
+.main
+{
+  
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+ background: linear-gradient(to top, rgba(25, 25, 25, 0.623),rgba(45, 45, 45, 0.483),rgba(121, 121, 121, 0.508));
+}
+.locName
+{
+  margin-top: 25%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cityName
+{
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 3px 4px rgba(43, 43, 43, 0.605);
 }
+.date
+{
+  font-style: italic;
+  margin-top: 2%;
+  font-family: 'Montseratt','sens-serif';
+}
+.temp
+{
+  margin-top: 7%;
+  display: inline-block;
+  background: rgba(203, 203, 203, 0.283);
+  padding: 20px;
+  font-size: 80px;
+  border-radius: 10px;
+  box-shadow: 1px 5px rgba(174, 174, 174, 0.689);
+  text-shadow: 2px 3px rgba(57, 57, 57, 0.655);
+}
+.wheatherType
+{
+  font-size: 35px;
+  margin-top: 10%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 2px rgba(177, 177, 177, 0.802);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
